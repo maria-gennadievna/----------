@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>ОмегаВкуса</title>
+      <link rel="stylesheet" href="/css/style3.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              <a href="/"><img src="img/logo.png"></a>
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Оплата</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Поставщикам</a></li>
+                                    <li><a href="#">Подбор персонала</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="content">
+                  <article>
+                        <div class="imgBx">
+                          <img src="https://i.ibb.co/jDLb97v/spinach-leaves.jpg" alt="" />
+                        </div>
+                        <div class="description">Полный ассортимент продуктов для ресторанов, баров, кафе и других предприятий общественного питания. Лучшие продукты по самым конкурентным ценам.</div>
+                      </article>
+                      
+                      
+                      <article class="img-right">
+                        <div class="imgBx">
+                          <img src="https://i.ibb.co/jDLb97v/spinach-leaves.jpg" alt="" />
+                        </div>
+                        <div class="description">Многолетний опыт работы, более 15 лет на рынке, ассортимент свыше 2000 наименований, конкурентные цены. Все товары отвечают санитарно-эпидемиологическим нормам, имеют Сертификаты качества, имеют оптимальные условия хранения, а также температурный режим доставки. В Санкт-Петербурге и по всему Северо-Западу наша компания закрепилась на лидирующих позициях надежного поставщика.</div>
+                      </article>
+            </div>
+      </div>
+
+      <footer class="footer-distributed">
+
+            <div class="footer-left">
+          
+              <!-- <h3>Тут можно слоган<span><img style="height: 3vh;" src="/img/logo.png" alt=""></span></h3> -->
+              <h3><span><img style="height: 3,5vh;" src="/img/logo.png" alt=""></span></h3>
+          
+              <p class="footer-links">
+                <a href="#" class="link-1">О компании</a>
+          
+                <a href="#">Контакты</a>
+          
+                <a href="#">Оплата</a>
+          
+                <a href="#">Доставка</a>
+          
+                <a href="#">Поставщикам</a>
+          
+                <a href="#">Подбор персонала</a>
+              </p>
+          
+              <p class="footer-company-name">Все права защищены © 2023</p>
+            </div>
+          
+            <div class="footer-center">
+          
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>г. Санкт-Петербург</span>2-я Поперечная улица, 15А </p>
+              </div>
+          
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+7 (800) 555-71-42</p>
+              </div>
+          
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto: vash-rest@mail.ru">vash-rest@mail.ru</a></p>
+              </div>
+          
+            </div>
+          
+            <div class="footer-right">
+          
+              <p style="color: white;" class="footer-company-about">
+                <span>О’МегаВкуса</span>
+                 - поставщик продуктов и оборудования в рестораны, бары, кафе и другие предприятия общественного питания Санкт-Петербурга и Ленинградской области. Многолетний опыт работы, более 15 лет на рынке, ассортимент свыше 2000 наименований, конкурентные цены. 
+              </p>
+          
+              <div class="footer-icons">
+          
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-vk"></i></a>
+                <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+          
+              </div>
+          
+            </div>
+          
+          </footer>
+          
+
+
+
+
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
